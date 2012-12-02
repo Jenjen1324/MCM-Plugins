@@ -1,14 +1,14 @@
 ﻿using System;
 using System.IO;
-using MCManager.Backups;
-using MCManager;
 using MCM_Plugins;
+using MCManager;
+using MCManager.Backups;
 
 namespace MCManager
 {
     internal class Format_Jar : IBackupFormat
     {
-        byte signature = 0x01;
+        private byte signature = 0x01;
 
         public IBackup Load(string file)
         {
@@ -36,14 +36,14 @@ namespace MCManager
 
         public IBackup CreateBackup()
         {
-            CreateBackup cb = new CreateBackup("Create new JarBackup", "Name:","Description:","File:","","",Data.minecraftbin,false);
+            CreateBackup cb = new CreateBackup("Create new JarBackup", "Name:", "Description:", "File:", "", "", Data.minecraftbin, false);
             if (cb.ShowDialog() == System.Windows.Forms.DialogResult.OK)
             {
                 if (File.Exists(cb.path))
                 {
                     if (cb.name != "")
                     {
-                        Backup_Jar backup = new Backup_Jar(cb.name, cb.description, cb.path);
+                        Backup_Jar backup = new Backup_Jar(cb.name, cb.description, Data.backupdir + cb.name + ".backup");
                         return backup;
                     }
                     else
