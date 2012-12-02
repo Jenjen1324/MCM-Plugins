@@ -36,7 +36,7 @@ namespace MCManager
 
         public IBackup CreateBackup()
         {
-            CreateBackup cb = new CreateBackup("Create new JarBackup", "Name:", "Description:", "File:", "", "", Data.minecraftbin, false);
+            CreateBackup cb = new CreateBackup("Create new JarBackup", "Name:", "Description:", "File:", "", "", Data.minecraftbin + "minecraft.jar", false);
             if (cb.ShowDialog() == System.Windows.Forms.DialogResult.OK)
             {
                 if (File.Exists(cb.path))

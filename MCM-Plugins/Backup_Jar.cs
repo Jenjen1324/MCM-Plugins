@@ -1,27 +1,25 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
-using System.IO;
 using System.Windows.Forms;
 using MCManager.Backups;
 
 namespace MCManager
 {
-    class Backup_Jar : IBackup
+    internal class Backup_Jar : IBackup
     {
-
         private string name;
         private string desc;
         private string file;
 
         public void Extract()
         {
-            
-            try 
+            try
             {
                 byte[] jardata = GetData();
-                File.WriteAllBytes(Data.minecraftbin,jardata);
+                File.WriteAllBytes(Data.minecraftbin + "minecraft.jar", jardata);
             }
             catch (Exception ex)
             {
@@ -31,7 +29,7 @@ namespace MCManager
 
         public byte[] GetData()
         {
-            string path = Data.backupdir + file;
+            string path = file;
             BinaryReader br = new BinaryReader(new FileStream(path, FileMode.Open));
             br.ReadByte();
             br.ReadString();
@@ -39,8 +37,6 @@ namespace MCManager
             byte[] jardata = br.ReadBytes(len);
             return jardata;
         }
-
-
 
         public string GetName()
         {
@@ -58,7 +54,7 @@ namespace MCManager
         }
 
         public Backup_Jar(string name, string desc, string file)
-        { 
+        {
             this.name = name;
             this.desc = desc;
             this.file = file;
@@ -68,7 +64,6 @@ namespace MCManager
         {
             return new Format_Jar();
         }
-
 
         public string GetFilePath()
         {

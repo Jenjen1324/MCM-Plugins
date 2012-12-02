@@ -11,7 +11,8 @@ namespace MCM_Plugins
 {
     public partial class CreateBackup : Form
     {
-        bool browseIsDir;
+        private bool browseIsDir;
+
         public CreateBackup(string head, string label1, string label2, string label3, string textBox1, string textBox2, string textBox3, bool browseIsDir)
         {
             InitializeComponent();
