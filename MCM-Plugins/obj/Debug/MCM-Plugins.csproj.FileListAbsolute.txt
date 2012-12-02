@@ -1,0 +1,5 @@
+c:\users\jens\documents\visual studio 2010\Projects\MCM-Plugins\MCM-Plugins\bin\Debug\MCM-Plugins.dll
+c:\users\jens\documents\visual studio 2010\Projects\MCM-Plugins\MCM-Plugins\bin\Debug\MCM-Plugins.pdb
+c:\users\jens\documents\visual studio 2010\Projects\MCM-Plugins\MCM-Plugins\obj\Debug\ResolveAssemblyReference.cache
+c:\users\jens\documents\visual studio 2010\Projects\MCM-Plugins\MCM-Plugins\obj\Debug\MCM-Plugins.dll
+c:\users\jens\documents\visual studio 2010\Projects\MCM-Plugins\MCM-Plugins\obj\Debug\MCM-Plugins.pdb

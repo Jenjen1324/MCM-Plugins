@@ -1,10 +1,10 @@
-﻿using MCManager.Backups;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.IO;
 using System.Windows.Forms;
+using MCManager.Backups;
 
 namespace MCManager
 {
@@ -12,18 +12,15 @@ namespace MCManager
     {
 
         private string name;
+        private string desc;
         private string file;
 
         public void Extract()
         {
-            string path = Data.backupdir + file;
+            
             try 
             {
-                BinaryReader br = new BinaryReader(new FileStream(path,FileMode.Open));
-                br.ReadByte();
-                br.ReadString();
-                int len = br.ReadInt32();
-                byte[] jardata = br.ReadBytes(len);
+                byte[] jardata = GetData();
                 File.WriteAllBytes(Data.minecraftbin,jardata);
             }
             catch (Exception ex)
@@ -32,9 +29,27 @@ namespace MCManager
             }
         }
 
+        public byte[] GetData()
+        {
+            string path = Data.backupdir + file;
+            BinaryReader br = new BinaryReader(new FileStream(path, FileMode.Open));
+            br.ReadByte();
+            br.ReadString();
+            int len = br.ReadInt32();
+            byte[] jardata = br.ReadBytes(len);
+            return jardata;
+        }
+
+
+
         public string GetName()
         {
             return name;
+        }
+
+        public string GetDescription()
+        {
+            return desc;
         }
 
         public string GetBackupType()
@@ -42,15 +57,22 @@ namespace MCManager
             return "minecraft jar";
         }
 
-        public Backup_Jar(string name, string file)
+        public Backup_Jar(string name, string desc, string file)
         { 
             this.name = name;
+            this.desc = desc;
             this.file = file;
         }
 
         public IBackupFormat GetFormat()
         {
             return new Format_Jar();
+        }
+
+
+        public string GetFilePath()
+        {
+            return file;
         }
     }
 }

@@ -1,0 +1,9 @@
+C:\Users\Jens\Documents\Visual Studio 2010\Projects\MCM-Plugins\MCM-Plugins\obj\Release\MCM-Plugins.csprojResolveAssemblyReference.cache
+C:\Users\Jens\Documents\Visual Studio 2010\Projects\MCM-Plugins\MCM-Plugins\obj\Release\MCM_Plugins.CreateBackup.resources
+C:\Users\Jens\Documents\Visual Studio 2010\Projects\MCM-Plugins\MCM-Plugins\obj\Release\MCM-Plugins.csproj.GenerateResource.Cache
+C:\Users\Jens\Documents\Visual Studio 2010\Projects\MCM-Plugins\MCM-Plugins\bin\Release\MCM-Plugins.dll
+C:\Users\Jens\Documents\Visual Studio 2010\Projects\MCM-Plugins\MCM-Plugins\bin\Release\MCM-Plugins.pdb
+C:\Users\Jens\Documents\Visual Studio 2010\Projects\MCM-Plugins\MCM-Plugins\bin\Release\MCManager.exe
+C:\Users\Jens\Documents\Visual Studio 2010\Projects\MCM-Plugins\MCM-Plugins\bin\Release\MCManager.pdb
+C:\Users\Jens\Documents\Visual Studio 2010\Projects\MCM-Plugins\MCM-Plugins\obj\Release\MCM-Plugins.dll
+C:\Users\Jens\Documents\Visual Studio 2010\Projects\MCM-Plugins\MCM-Plugins\obj\Release\MCM-Plugins.pdb
