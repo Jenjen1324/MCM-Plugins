@@ -17,6 +17,7 @@ namespace MCManager
             string name = br.ReadString();
             string desc = br.ReadString();
             Backup_Jar backup = new Backup_Jar(name, desc, file);
+            br.Close();
             return backup;
         }
 
