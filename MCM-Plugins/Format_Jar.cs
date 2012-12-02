@@ -69,5 +69,10 @@ namespace MCManager
             }
             return null;
         }
+
+        public string GetFormatName()
+        {
+            return "Jar backup";
+        }
     }
 }
