@@ -33,9 +33,9 @@ namespace MCManager
             BinaryReader br = new BinaryReader(new FileStream(path, FileMode.Open));
             br.ReadByte();
             br.ReadString();
-            br.Close();
             int len = br.ReadInt32();
             byte[] jardata = br.ReadBytes(len);
+            br.Close();
             return jardata;
         }
 
