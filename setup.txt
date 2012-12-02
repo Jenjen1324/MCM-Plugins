@@ -1,0 +1,5 @@
+.backup
+
+BYTE : SIGNATURE
+STRING : NAME
+BYTE[] : DATA

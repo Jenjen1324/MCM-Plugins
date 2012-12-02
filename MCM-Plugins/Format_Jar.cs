@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MCManager.Backups;
+using System;
 
 namespace MCManager
 {
@@ -21,10 +22,7 @@ namespace MCManager
 
         public IBackup CreateBackup()
         {
-            Import i = new Import(null, null, null, null, null);
-            i.ShowDialog();
-
-            return null;
+            throw new NotImplementedException();
         }
     }
 }
