@@ -22,11 +22,13 @@ namespace MCManager
 
         public void Save(string file, IBackup backup)
         {
+            byte[] jardata = (backup as Backup_Jar).GetData();
             BinaryWriter bw = new BinaryWriter(new FileStream(file, FileMode.OpenOrCreate));
             bw.Write(signature);
             bw.Write(backup.GetName());
             bw.Write(backup.GetDescription());
-            bw.Write((backup as Backup_Jar).GetData());
+            bw.Write(jardata);
+            bw.Close();
         }
 
         public byte getSignature()
@@ -44,6 +46,12 @@ namespace MCManager
                     if (cb.name != "")
                     {
                         Backup_Jar backup = new Backup_Jar(cb.name, cb.description, Data.backupdir + cb.name + ".backup");
+                        BinaryWriter bw = new BinaryWriter(new FileStream(backup.GetFilePath(), FileMode.OpenOrCreate));
+                        bw.Write(signature);
+                        bw.Write(backup.GetName());
+                        bw.Write(backup.GetDescription());
+                        bw.Write(File.ReadAllBytes(Data.minecraftbin + "minecraft.jar"));
+                        bw.Close();
                         return backup;
                     }
                     else
