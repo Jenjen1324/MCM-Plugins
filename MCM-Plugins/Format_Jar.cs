@@ -28,6 +28,7 @@ namespace MCManager
             bw.Write(signature);
             bw.Write(backup.GetName());
             bw.Write(backup.GetDescription());
+            bw.Write(jardata.Length);
             bw.Write(jardata);
             bw.Close();
         }
@@ -51,7 +52,9 @@ namespace MCManager
                         bw.Write(signature);
                         bw.Write(backup.GetName());
                         bw.Write(backup.GetDescription());
-                        bw.Write(File.ReadAllBytes(Data.minecraftbin + "minecraft.jar"));
+                        byte[] jardata = File.ReadAllBytes(Data.minecraftbin + "minecraft.jar");
+                        bw.Write(jardata.Length);
+                        bw.Write(jardata);
                         bw.Close();
                         return backup;
                     }
