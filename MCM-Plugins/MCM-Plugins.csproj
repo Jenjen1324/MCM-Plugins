@@ -46,6 +46,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Backup_Jar.cs" />
+    <Compile Include="Backup_LoginInfo.cs" />
     <Compile Include="CreateBackup.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -53,6 +54,7 @@
       <DependentUpon>CreateBackup.cs</DependentUpon>
     </Compile>
     <Compile Include="Format_Jar.cs" />
+    <Compile Include="Format_LoginInfo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

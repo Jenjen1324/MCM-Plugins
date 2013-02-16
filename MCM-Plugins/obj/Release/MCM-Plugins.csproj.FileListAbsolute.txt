@@ -16,3 +16,13 @@ C:\Users\Andreas\Documents\GitHub\MCM-Plugins\MCM-Plugins\obj\Release\MCM_Plugin
 C:\Users\Andreas\Documents\GitHub\MCM-Plugins\MCM-Plugins\obj\Release\MCM-Plugins.csproj.GenerateResource.Cache
 C:\Users\Andreas\Documents\GitHub\MCM-Plugins\MCM-Plugins\obj\Release\MCM-Plugins.dll
 C:\Users\Andreas\Documents\GitHub\MCM-Plugins\MCM-Plugins\obj\Release\MCM-Plugins.pdb
+C:\Users\jens\Documents\GitHub\MCM-Plugins\MCM-Plugins\bin\Release\MCM-Plugins.dll
+C:\Users\jens\Documents\GitHub\MCM-Plugins\MCM-Plugins\bin\Release\MCM-Plugins.pdb
+C:\Users\jens\Documents\GitHub\MCM-Plugins\MCM-Plugins\bin\Release\MCManager.exe
+C:\Users\jens\Documents\GitHub\MCM-Plugins\MCM-Plugins\bin\Release\MCManager.pdb
+C:\Users\jens\Documents\GitHub\MCM-Plugins\MCM-Plugins\obj\Release\ResolveAssemblyReference.cache
+C:\Users\jens\Documents\GitHub\MCM-Plugins\MCM-Plugins\obj\Release\MCM_Plugins.CreateBackup.resources
+C:\Users\jens\Documents\GitHub\MCM-Plugins\MCM-Plugins\obj\Release\GenerateResource.read.1.tlog
+C:\Users\jens\Documents\GitHub\MCM-Plugins\MCM-Plugins\obj\Release\GenerateResource.write.1.tlog
+C:\Users\jens\Documents\GitHub\MCM-Plugins\MCM-Plugins\obj\Release\MCM-Plugins.dll
+C:\Users\jens\Documents\GitHub\MCM-Plugins\MCM-Plugins\obj\Release\MCM-Plugins.pdb
