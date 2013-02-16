@@ -3,3 +3,13 @@ c:\users\jens\documents\visual studio 2010\Projects\MCM-Plugins\MCM-Plugins\bin\
 c:\users\jens\documents\visual studio 2010\Projects\MCM-Plugins\MCM-Plugins\obj\Debug\ResolveAssemblyReference.cache
 c:\users\jens\documents\visual studio 2010\Projects\MCM-Plugins\MCM-Plugins\obj\Debug\MCM-Plugins.dll
 c:\users\jens\documents\visual studio 2010\Projects\MCM-Plugins\MCM-Plugins\obj\Debug\MCM-Plugins.pdb
+C:\Users\jens\Documents\GitHub\MCM-Plugins\MCM-Plugins\bin\Debug\MCM-Plugins.dll
+C:\Users\jens\Documents\GitHub\MCM-Plugins\MCM-Plugins\bin\Debug\MCM-Plugins.pdb
+C:\Users\jens\Documents\GitHub\MCM-Plugins\MCM-Plugins\bin\Debug\MCManager.exe
+C:\Users\jens\Documents\GitHub\MCM-Plugins\MCM-Plugins\bin\Debug\MCManager.pdb
+C:\Users\jens\Documents\GitHub\MCM-Plugins\MCM-Plugins\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\jens\Documents\GitHub\MCM-Plugins\MCM-Plugins\obj\Debug\MCM_Plugins.CreateBackup.resources
+C:\Users\jens\Documents\GitHub\MCM-Plugins\MCM-Plugins\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\jens\Documents\GitHub\MCM-Plugins\MCM-Plugins\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\jens\Documents\GitHub\MCM-Plugins\MCM-Plugins\obj\Debug\MCM-Plugins.dll
+C:\Users\jens\Documents\GitHub\MCM-Plugins\MCM-Plugins\obj\Debug\MCM-Plugins.pdb

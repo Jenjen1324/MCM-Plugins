@@ -31,7 +31,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="MCManager">
+    <Reference Include="MCManager, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\MC-Manager\MCManager\bin\Debug\MCManager.exe</HintPath>
     </Reference>
     <Reference Include="System" />
@@ -46,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Backup_Jar.cs" />
+    <Compile Include="Backup_LoginInfo.cs" />
     <Compile Include="CreateBackup.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -53,6 +55,7 @@
       <DependentUpon>CreateBackup.cs</DependentUpon>
     </Compile>
     <Compile Include="Format_Jar.cs" />
+    <Compile Include="Format_LoginInfo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
