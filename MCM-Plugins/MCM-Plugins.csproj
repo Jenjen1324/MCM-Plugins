@@ -31,7 +31,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="MCManager">
+    <Reference Include="MCManager, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\MC-Manager\MCManager\bin\Debug\MCManager.exe</HintPath>
     </Reference>
     <Reference Include="System" />

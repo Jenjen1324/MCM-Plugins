@@ -35,7 +35,7 @@ namespace MCManager
 
         public byte getSignature()
         {
-            return 0x01;
+            return signature;
         }
 
         public IBackup CreateBackup()

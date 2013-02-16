@@ -4,43 +4,56 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using MCManager.Backups;
+using MCManager;
 
 namespace MCM_Plugins
 {
     class Backup_LoginInfo : IBackup
     {
-        private string username;
+        private LoginInfo login;
         private string displayname;
-        private string password;
+        private string file;
 
         public void Extract()
         {
-            throw new NotImplementedException();
+            DataHolder.SetLoginInfo(login);
         }
 
         public string GetBackupType()
         {
-            throw new NotImplementedException();
+            return "Login Info";
         }
 
         public string GetDescription()
         {
-            throw new NotImplementedException();
+            return displayname;
         }
 
         public string GetFilePath()
         {
-            throw new NotImplementedException();
+            return file;
         }
 
         public IBackupFormat GetFormat()
         {
-            throw new NotImplementedException();
+            return new Format_LoginInfo();
         }
 
         public string GetName()
         {
-            throw new NotImplementedException();
+            return login.GetName();
+        }
+
+        public LoginInfo GetLogin()
+        {
+            return login;
+        }
+
+        public Backup_LoginInfo(string name, string displayname, string password, string file)
+        {
+            this.login = new LoginInfo(name, password);
+            this.displayname = displayname;
+            this.file = file;
         }
     }
 }
