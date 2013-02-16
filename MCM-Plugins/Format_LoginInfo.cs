@@ -16,7 +16,7 @@ namespace MCM_Plugins
         {
             LoginInfo li = DataHolder.GetLoginInfo();
             string displayname_raw = InputBox.Show("Choose a displayname","Displayname:");
-            if (displayname_raw == null)
+            if (displayname_raw != null)
             {
                 int i = 1;
                 string savepath = "";
