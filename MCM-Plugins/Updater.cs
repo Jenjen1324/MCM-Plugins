@@ -12,7 +12,7 @@ namespace MCM_Plugins
     public class Updater : IUpdater
     {
         string path;
-        const string LocalVersion = "0.11";
+        const string LocalVersion = "0.2";
 
         public bool CheckForUpdates()
         {
