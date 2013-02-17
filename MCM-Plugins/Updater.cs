@@ -19,7 +19,7 @@ namespace MCM_Plugins
             WebClient wc = new WebClient();
             string version = wc.DownloadString("https://raw.github.com/Northcode/MCM-Plugins/master/MCM-Plugins/ver.txt");
             string localversion = LocalVersion;
-            return version == localversion; 
+            return version != localversion; 
         }
 
         public string GetLocalPath()
