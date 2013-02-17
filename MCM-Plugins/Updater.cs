@@ -17,7 +17,7 @@ namespace MCM_Plugins
         public bool CheckForUpdates()
         {
             WebClient wc = new WebClient();
-            string version = wc.DownloadString("https://raw.github.com/Northcode/MCM-Plugins/master/MCM-Plugins/Backup_Jar.cs");
+            string version = wc.DownloadString("https://raw.github.com/Jenjen1324/MCM-Plugins/master/MCM-Plugins/ver.txt");
             string localversion = LocalVersion;
             return version == localversion;
         }
@@ -29,7 +29,7 @@ namespace MCM_Plugins
 
         public string GetUpdatePath()
         {
-            return "https://github.com/Northcode/MCM-Plugins/raw/master/MCM-Plugins/bin/Release/MCM-Plugins.dll";
+            return "https://github.com/Jenjen1324/MCM-Plugins/raw/master/MCM-Plugins/bin/Release/MCM-Plugins.dll";
         }
 
         public void SetPath(string file)
