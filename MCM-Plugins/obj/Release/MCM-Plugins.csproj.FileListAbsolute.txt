@@ -32,3 +32,4 @@ J:\Desktop\MCM-Plugins\MCM-Plugins\obj\Release\MCM_Plugins.CreateBackup.resource
 J:\Desktop\MCM-Plugins\MCM-Plugins\obj\Release\MCM-Plugins.csproj.GenerateResource.Cache
 J:\Desktop\MCM-Plugins\MCM-Plugins\obj\Release\MCM-Plugins.dll
 J:\Desktop\MCM-Plugins\MCM-Plugins\obj\Release\MCM-Plugins.pdb
+J:\Desktop\MCM-Plugins\MCM-Plugins\bin\Release\MCM-Plugins.dll.config
