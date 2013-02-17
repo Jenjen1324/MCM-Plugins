@@ -23,7 +23,6 @@ C:\Users\jens\Documents\GitHub\MCM-Plugins\MCM-Plugins\bin\Release\MCManager.pdb
 C:\Users\jens\Documents\GitHub\MCM-Plugins\MCM-Plugins\obj\Release\MCM_Plugins.CreateBackup.resources
 C:\Users\jens\Documents\GitHub\MCM-Plugins\MCM-Plugins\obj\Release\MCM-Plugins.dll
 C:\Users\jens\Documents\GitHub\MCM-Plugins\MCM-Plugins\obj\Release\MCM-Plugins.pdb
-C:\Users\Jens\Documents\GitHub\MCM-Plugins\MCM-Plugins\obj\Release\MCM-Plugins.csprojResolveAssemblyReference.cache
 C:\Users\Jens\Documents\GitHub\MCM-Plugins\MCM-Plugins\obj\Release\MCM-Plugins.csproj.GenerateResource.Cache
 J:\Desktop\MCM-Plugins\MCM-Plugins\bin\Release\MCM-Plugins.dll
 J:\Desktop\MCM-Plugins\MCM-Plugins\bin\Release\MCM-Plugins.pdb
