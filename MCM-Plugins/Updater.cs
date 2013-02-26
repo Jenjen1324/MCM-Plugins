@@ -13,13 +13,14 @@ namespace MCM_Plugins
     {
         string path;
         const string LocalVersion = "0.3";
+        const string configNode = "MCM Plugins";
 
         public bool CheckForUpdates()
         {
-            Config c = DataHolder.GetConfig("mcmp");
+            Config c = DataHolder.GetConfig(configNode);
             if (c == null)
             {
-                c = new Config("mcmp");
+                c = new Config(configNode);
                 //ADD CONFIG ITEMS
                 DataHolder.AddConfig(c);
             }
@@ -27,7 +28,7 @@ namespace MCM_Plugins
 
             bool auto = !((bool)DataHolder.GetConfig().Get("autoupdate"));
 
-            if (c.Get("Auto Update") == null)
+            if (!c.Has("Auto Update"))
             {
                 c.Set("Auto Update", Config.Type.Bool, true);
             }
