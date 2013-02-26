@@ -25,24 +25,26 @@ namespace MCM_Plugins
                 //ADD CONFIG ITEMS
                 DataHolder.AddConfig(c);
             }
+
+
             bool auto = !((bool)DataHolder.GetConfig().Get("autoupdate"));
 
-            if (!c.Exists())
+            if (c.Get("Auto Update") == null)
             {
                 c.Set("Auto Update", Config.Type.Bool, true);
             }
 
-            //if (Convert.ToBoolean(c.Get("Auto Update")) || auto)
-            //{
+            if ((bool)c.Get("Auto Update") || auto)
+            {
                 WebClient wc = new WebClient();
                 string version = wc.DownloadString("https://raw.github.com/Northcode/MCM-Plugins/master/MCM-Plugins/ver.txt");
                 string localversion = LocalVersion;
                 return version != localversion;
-            //}
-            //else
-            //{
-            //    return false;
-            //}
+            }
+            else
+            {
+                return false;
+            }
         }
 
         public string GetLocalPath()
