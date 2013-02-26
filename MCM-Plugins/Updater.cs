@@ -13,12 +13,10 @@ namespace MCM_Plugins
     {
         string path;
         const string LocalVersion = "0.3";
-        Config c = DataHolder.GetConfig("mcmp");
-
-
 
         public bool CheckForUpdates()
         {
+            Config c = DataHolder.GetConfig("mcmp");
             if (c == null)
             {
                 c = new Config("mcmp");
