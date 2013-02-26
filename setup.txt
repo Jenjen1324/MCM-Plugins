@@ -1,0 +1,10 @@
+.backup
+
+BYTE : SIGNATURE
+STRING : NAME
+STRING : DESCRIPTION
+BYTE[] : DATA
+
+Backup types:
+
+j = Jar
