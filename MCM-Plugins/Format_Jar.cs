@@ -77,5 +77,15 @@ namespace MCManager
         {
             return "Jar backup";
         }
+
+        public System.Drawing.Image GetImage()
+        {
+            return null;
+        }
+
+        public string GetImageName()
+        {
+            return null;
+        }
     }
 }

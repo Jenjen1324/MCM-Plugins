@@ -81,5 +81,16 @@ namespace MCM_Plugins
         {
             return signature;
         }
+
+
+        public System.Drawing.Image GetImage()
+        {
+            return null;
+        }
+
+        public string GetImageName()
+        {
+            return null;
+        }
     }
 }
