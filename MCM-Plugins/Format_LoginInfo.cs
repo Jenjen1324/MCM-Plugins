@@ -33,7 +33,11 @@ namespace MCM_Plugins
                     }
 
                 }
+<<<<<<< HEAD
                 Backup_LoginInfo backup = new Backup_LoginInfo(li.GetName(), displayname_raw, li.GetPassword(), savepath);
+=======
+                Backup_LoginInfo backup = new Backup_LoginInfo(li, displayname_raw, savepath);
+>>>>>>> aa53c5827ac54899ac642789680a9abb55f5ec68
                 BinaryWriter bw = new BinaryWriter(new FileStream(savepath, FileMode.OpenOrCreate));
                 bw.Write(signature);
                 bw.Write(li.GetName());
@@ -57,10 +61,17 @@ namespace MCM_Plugins
         {
             BinaryReader br = new BinaryReader(new FileStream(file, FileMode.Open));
             br.ReadByte();
+<<<<<<< HEAD
             string name = br.ReadString();
             string displayname = br.ReadString();
             string password = br.ReadString();
             Backup_LoginInfo backup = new Backup_LoginInfo(name, displayname, password, file);
+=======
+            string displayname = br.ReadString();
+            int len = br.ReadInt32();
+            LoginInfo li = LoginInfo.LoadFromMemory(br.ReadBytes(len));
+            Backup_LoginInfo backup = new Backup_LoginInfo(li, displayname, file);
+>>>>>>> aa53c5827ac54899ac642789680a9abb55f5ec68
             br.Close();
             return backup;
         }
@@ -70,9 +81,16 @@ namespace MCM_Plugins
             LoginInfo li = (backup as Backup_LoginInfo).GetLogin();
             BinaryWriter bw = new BinaryWriter(new FileStream(file, FileMode.OpenOrCreate));
             bw.Write(signature);
+<<<<<<< HEAD
             bw.Write(li.GetName());
             bw.Write(backup.GetDescription());
             bw.Write(li.GetPassword());
+=======
+            bw.Write(backup.GetDescription());
+            byte[] ldata = li.SaveToMemory();
+            bw.Write(ldata.Length);
+            bw.Write(ldata);
+>>>>>>> aa53c5827ac54899ac642789680a9abb55f5ec68
             bw.Close();
         }
 
