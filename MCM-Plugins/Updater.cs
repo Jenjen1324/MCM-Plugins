@@ -12,7 +12,7 @@ namespace MCM_Plugins
     public class Updater : IUpdater
     {
         string path;
-        const string LocalVersion = "0.5";
+        const string LocalVersion = "0.6";
         const string configNode = "MCM Plugins";
 
         public bool CheckForUpdates()

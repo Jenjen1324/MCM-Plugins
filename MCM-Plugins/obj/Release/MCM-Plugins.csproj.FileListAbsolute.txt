@@ -1,0 +1,35 @@
+C:\Users\Jens\Documents\Visual Studio 2010\Projects\MCM-Plugins\MCM-Plugins\obj\Release\MCM-Plugins.csprojResolveAssemblyReference.cache
+C:\Users\Jens\Documents\Visual Studio 2010\Projects\MCM-Plugins\MCM-Plugins\obj\Release\MCM_Plugins.CreateBackup.resources
+C:\Users\Jens\Documents\Visual Studio 2010\Projects\MCM-Plugins\MCM-Plugins\obj\Release\MCM-Plugins.csproj.GenerateResource.Cache
+C:\Users\Jens\Documents\Visual Studio 2010\Projects\MCM-Plugins\MCM-Plugins\bin\Release\MCM-Plugins.dll
+C:\Users\Jens\Documents\Visual Studio 2010\Projects\MCM-Plugins\MCM-Plugins\bin\Release\MCM-Plugins.pdb
+C:\Users\Jens\Documents\Visual Studio 2010\Projects\MCM-Plugins\MCM-Plugins\bin\Release\MCManager.exe
+C:\Users\Jens\Documents\Visual Studio 2010\Projects\MCM-Plugins\MCM-Plugins\bin\Release\MCManager.pdb
+C:\Users\Jens\Documents\Visual Studio 2010\Projects\MCM-Plugins\MCM-Plugins\obj\Release\MCM-Plugins.dll
+C:\Users\Jens\Documents\Visual Studio 2010\Projects\MCM-Plugins\MCM-Plugins\obj\Release\MCM-Plugins.pdb
+C:\Users\Andreas\Documents\GitHub\MCM-Plugins\MCM-Plugins\bin\Release\MCM-Plugins.dll
+C:\Users\Andreas\Documents\GitHub\MCM-Plugins\MCM-Plugins\bin\Release\MCM-Plugins.pdb
+C:\Users\Andreas\Documents\GitHub\MCM-Plugins\MCM-Plugins\bin\Release\MCManager.exe
+C:\Users\Andreas\Documents\GitHub\MCM-Plugins\MCM-Plugins\bin\Release\MCManager.pdb
+C:\Users\Andreas\Documents\GitHub\MCM-Plugins\MCM-Plugins\obj\Release\MCM-Plugins.csprojResolveAssemblyReference.cache
+C:\Users\Andreas\Documents\GitHub\MCM-Plugins\MCM-Plugins\obj\Release\MCM_Plugins.CreateBackup.resources
+C:\Users\Andreas\Documents\GitHub\MCM-Plugins\MCM-Plugins\obj\Release\MCM-Plugins.csproj.GenerateResource.Cache
+C:\Users\Andreas\Documents\GitHub\MCM-Plugins\MCM-Plugins\obj\Release\MCM-Plugins.dll
+C:\Users\Andreas\Documents\GitHub\MCM-Plugins\MCM-Plugins\obj\Release\MCM-Plugins.pdb
+C:\Users\jens\Documents\GitHub\MCM-Plugins\MCM-Plugins\bin\Release\MCM-Plugins.dll
+C:\Users\jens\Documents\GitHub\MCM-Plugins\MCM-Plugins\bin\Release\MCM-Plugins.pdb
+C:\Users\jens\Documents\GitHub\MCM-Plugins\MCM-Plugins\bin\Release\MCManager.exe
+C:\Users\jens\Documents\GitHub\MCM-Plugins\MCM-Plugins\bin\Release\MCManager.pdb
+C:\Users\jens\Documents\GitHub\MCM-Plugins\MCM-Plugins\obj\Release\MCM_Plugins.CreateBackup.resources
+C:\Users\jens\Documents\GitHub\MCM-Plugins\MCM-Plugins\obj\Release\MCM-Plugins.dll
+C:\Users\jens\Documents\GitHub\MCM-Plugins\MCM-Plugins\obj\Release\MCM-Plugins.pdb
+C:\Users\Jens\Documents\GitHub\MCM-Plugins\MCM-Plugins\obj\Release\MCM-Plugins.csproj.GenerateResource.Cache
+J:\Desktop\MCM-Plugins\MCM-Plugins\bin\Release\MCM-Plugins.dll
+J:\Desktop\MCM-Plugins\MCM-Plugins\bin\Release\MCM-Plugins.pdb
+J:\Desktop\MCM-Plugins\MCM-Plugins\bin\Release\MCManager.exe
+J:\Desktop\MCM-Plugins\MCM-Plugins\bin\Release\MCManager.pdb
+J:\Desktop\MCM-Plugins\MCM-Plugins\obj\Release\MCM_Plugins.CreateBackup.resources
+J:\Desktop\MCM-Plugins\MCM-Plugins\obj\Release\MCM-Plugins.csproj.GenerateResource.Cache
+J:\Desktop\MCM-Plugins\MCM-Plugins\obj\Release\MCM-Plugins.dll
+J:\Desktop\MCM-Plugins\MCM-Plugins\obj\Release\MCM-Plugins.pdb
+J:\Desktop\MCM-Plugins\MCM-Plugins\obj\Release\MCM-Plugins.csprojResolveAssemblyReference.cache
