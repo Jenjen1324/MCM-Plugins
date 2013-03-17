@@ -1,7 +1,9 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MCM-Plugins", "MCM-Plugins\MCM-Plugins.csproj", "{D8204C9E-7C0E-4D99-A54F-BA1C4D5EC8FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MCMFTBBRIDGE", "MCMFTBBRIDGE\MCMFTBBRIDGE.csproj", "{BF118045-8CB7-450F-87A9-6919C4BE90F0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,6 +15,10 @@ Global
 		{D8204C9E-7C0E-4D99-A54F-BA1C4D5EC8FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D8204C9E-7C0E-4D99-A54F-BA1C4D5EC8FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D8204C9E-7C0E-4D99-A54F-BA1C4D5EC8FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF118045-8CB7-450F-87A9-6919C4BE90F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF118045-8CB7-450F-87A9-6919C4BE90F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF118045-8CB7-450F-87A9-6919C4BE90F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF118045-8CB7-450F-87A9-6919C4BE90F0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
