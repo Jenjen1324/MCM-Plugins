@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MCM-Plugins", "MCM-Plugins\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MCMFTBBRIDGE", "MCMFTBBRIDGE\MCMFTBBRIDGE.csproj", "{BF118045-8CB7-450F-87A9-6919C4BE90F0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FeedTheBeast-Launcher", "FeedTheBeast-Launcher\FeedTheBeast-Launcher.csproj", "{55BC1323-1926-4FAD-BD1A-3BA8907959CD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +21,10 @@ Global
 		{BF118045-8CB7-450F-87A9-6919C4BE90F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BF118045-8CB7-450F-87A9-6919C4BE90F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BF118045-8CB7-450F-87A9-6919C4BE90F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55BC1323-1926-4FAD-BD1A-3BA8907959CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55BC1323-1926-4FAD-BD1A-3BA8907959CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55BC1323-1926-4FAD-BD1A-3BA8907959CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55BC1323-1926-4FAD-BD1A-3BA8907959CD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

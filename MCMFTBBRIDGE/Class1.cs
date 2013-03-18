@@ -15,7 +15,7 @@ namespace MCMFTBBRIDGE
     public class MCMFTBBridge : IPlugin
     {
         public static string ftbpath = Data.appdatafolder + "ftb.jar";
-        public const string ftburl = "http://www.creeperrepo.net/direct/FTB2/3ff3931ca8a4859ea55c71c084a5eef0/launcher%5EFTB_Launcher.jar";
+        public const string ftburl = "http://www.creeperrepo.net/download/FTB2/launcher%5EFTB_Launcher.jar";
         MainWindow mainwnd;
         ComboBox cbxMCStart;
         bool downloaded = false;

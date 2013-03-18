@@ -11,3 +11,4 @@ C:\Users\jens\Documents\GitHub\MCM-Plugins\MCM-Plugins\obj\Debug\MCM_Plugins.Cre
 C:\Users\jens\Documents\GitHub\MCM-Plugins\MCM-Plugins\obj\Debug\MCM-Plugins.dll
 C:\Users\jens\Documents\GitHub\MCM-Plugins\MCM-Plugins\obj\Debug\MCM-Plugins.pdb
 C:\Users\Jens\Documents\GitHub\MCM-Plugins\MCM-Plugins\obj\Debug\MCM-Plugins.csproj.GenerateResource.Cache
+C:\Users\Jens\Documents\GitHub\MCM-Plugins\MCM-Plugins\obj\Debug\MCM-Plugins.csprojResolveAssemblyReference.cache

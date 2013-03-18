@@ -1,0 +1,18 @@
+﻿Feed the Beast related links:
+
+http://www.creeperrepo.net/static/FTB2/modpacks.xml // ModPack list
+
+Modpack download link:
+string key = md5("mcepoch1" + getTime());
+
+string getTime()
+{
+	downloadString(http://www.creeperrepo.net/getdate);
+} 
+
+string link = "http://www.creeperrepo.net/direct/FTB/" + key + "/modpacks%5E" + modpackDir + "%5E" + modpackVersion + "%5E" + downloadLink
+
+More links:
+http://www.creeperrepo.net/static/FTB2/maps.xml
+http://www.creeperrepo.net/static/FTB2/modpacks.xml
+http://www.creeperrepo.net/static/FTB2/version.xml
